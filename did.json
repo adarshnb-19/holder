@@ -1,31 +1,31 @@
 {
-    "@context": ["https://www.w3.org/ns/did/v1"],
-    "id": "did:web:vivek-bodar.github.io:ak-holder",
-    "verificationMethod": [
-      {
-        "id": "did:web:vivek-bodar.github.io:ak-holder#key-1",
-        "type": "Ed25519VerificationKey2018",
-        "controller": "did:web:vivek-bodar.github.io:ak-holder",
-        "publicKeyBase58": "9Y79frAQQfBbVkesvdMi1J1aM7ZJGJyhQkFS7t5XSiQw"
-      }
-    ],
-    "authentication": ["did:web:vivek-bodar.github.io:ak-holder#key-1"],
-    "assertionMethod": ["did:web:vivek-bodar.github.io:ak-holder#key-1"],
-    "service": [
-      {
-        "id": "did:web:vivek-bodar.github.io:ak-holder#did-communication",
-        "type": "DIDCommMessaging",
-        "serviceEndpoint": "http://192.168.1.9:9002",
-        "recipientKeys": ["did:web:vivek-bodar.github.io:ak-holder#key-1"],
-        "routingKeys": [],
-        "accept": ["didcomm/aip2;env=rfc19"],
-        "priority": 1
-      }
-    ],
-    "alsoKnownAs": [],
-    "proof": {
-      "type": "DataIntegrityProof",
-      "created": "2025-02-28T15:16:20.703Z",
-      "proofPurpose": "assertionMethod"
+  "@context": ["https://www.w3.org/ns/did/v1"],
+  "id": "did:web:adarshnb-19.github.io:holder",
+  "verificationMethod": [
+    {
+      "id": "did:web:adarshnb-19.github.io:holder#key-1",
+      "type": "Ed25519VerificationKey2018",
+      "controller": "did:web:adarshnb-19.github.io:holder",
+      "publicKeyBase58": "7WtRrw8rGrymDPeBe8qJLszAfgf8ELDm3EreBHxXzeTN"
     }
+  ],
+  "authentication": ["did:web:adarshnb-19.github.io:holder#key-1"],
+  "assertionMethod": ["did:web:adarshnb-19.github.io:holder#key-1"],
+  "service": [
+    {
+      "id": "did:web:adarshnb-19.github.io:holder#did-communication",
+      "type": "DIDCommMessaging",
+      "serviceEndpoint": "http://192.168.0.106:9002",
+      "recipientKeys": ["did:web:adarshnb-19.github.io:holder#key-1"],
+      "routingKeys": [],
+      "accept": ["didcomm/aip2;env=rfc19"],
+      "priority": 1
+    }
+  ],
+  "alsoKnownAs": [],
+  "proof": {
+    "type": "DataIntegrityProof",
+    "created": "2025-02-28T15:16:20.703Z",
+    "proofPurpose": "assertionMethod"
   }
+}
