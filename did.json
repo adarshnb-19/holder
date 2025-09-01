@@ -15,7 +15,7 @@
     {
       "id": "did:web:adarshnb-19.github.io:holder#did-communication",
       "type": "DIDCommMessaging",
-      "serviceEndpoint": "http://192.168.1.10:8002",
+      "serviceEndpoint": "http://192.168.1.10:9002",
       "recipientKeys": ["did:web:adarshnb-19.github.io:holder#key-1"],
       "routingKeys": [],
       "accept": ["didcomm/aip2;env=rfc19"],
