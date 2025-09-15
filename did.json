@@ -6,7 +6,7 @@
       "id": "did:web:adarshnb-19.github.io:holder#key-1",
       "type": "Ed25519VerificationKey2018",
       "controller": "did:web:adarshnb-19.github.io:holder",
-      "publicKeyBase58": "3wJMu9ubN4mDTgoa6DJoJkmjKs1KSsWTyjhbt9DuyGiU"
+      "publicKeyBase58": "FR5YViJEJx4MxdEwSK329EgWaGdrrpUyyR4FLXXReiP7"
     }
   ],
   "authentication": ["did:web:adarshnb-19.github.io:holder#key-1"],
@@ -15,7 +15,7 @@
     {
       "id": "did:web:adarshnb-19.github.io:holder#did-communication",
       "type": "DIDCommMessaging",
-      "serviceEndpoint": "http://192.168.1.10:9002",
+      "serviceEndpoint": "http://192.168.1.10:9001",
       "recipientKeys": ["did:web:adarshnb-19.github.io:holder#key-1"],
       "routingKeys": [],
       "accept": ["didcomm/aip2;env=rfc19"],
